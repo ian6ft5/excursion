@@ -1,6 +1,11 @@
-body {
+html {
     font-family: Verdana;
     font-size: 16px;
+    color: white;
+}
+
+body {
+    background-color: black;
 }
 
 main {
@@ -8,7 +13,26 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    text-align: center;
+    
+}
 
+h1 {
+    font-size: 3.125rem;
+}
+
+h2 {
+    font-size: 2.625rem;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 1.313rem;
+    color: gray;
+}
+
+a {
+    color: aquamarine;
 }
 
 footer {
